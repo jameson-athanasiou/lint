@@ -1,5 +1,3 @@
 import NodeTypescript from './src/node-typescript'
 
-export {
-  NodeTypescript,
-}
+export default NodeTypescript
