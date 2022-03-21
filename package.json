@@ -1,5 +1,5 @@
 {
-  "name": "lint",
+  "name": "@jathanasiou/lint",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,11 @@
   },
   "devDependencies": {
     "@types/eslint": "^8.4.1",
+    "beachball": "^2.21.0",
     "typescript": "^4.6.2"
   },
   "scripts": {
+    "bump": "beachball --no-git-tags --no-publish --verbose -y",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
