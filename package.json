@@ -1,6 +1,6 @@
 {
-  "name": "@jathanasiou/lint",
-  "version": "0.0.4",
+  "name": "@jathanasiou/eslint-config-nodetypescript",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "dependencies": {
